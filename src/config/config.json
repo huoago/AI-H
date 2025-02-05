@@ -1,0 +1,28 @@
+{
+    "model": {
+        "name": "uer/gpt2-chinese-cluecorpussmall",
+        "cache_dir": "models",
+        "max_length": 2000,
+        "temperature": 0.7
+    },
+    "ocr": {
+        "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+        "languages": ["chi_sim", "eng"]
+    },
+    "ui": {
+        "window_title": "AI文章生成助手",
+        "window_size": {
+            "width": 1000,
+            "height": 800
+        },
+        "theme": "default"
+    },
+    "file": {
+        "supported_formats": ["txt", "pdf", "docx", "png", "jpg"],
+        "max_file_size": 20971520
+    },
+    "output": {
+        "default_dir": "output",
+        "auto_backup": true
+    }
+} 

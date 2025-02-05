@@ -1,0 +1,22 @@
+{
+    "templates": [
+        {
+            "name": "新闻",
+            "prompt": "请将以下内容改写成新闻报道格式：\n{content}",
+            "style": "formal",
+            "max_length": 1500
+        },
+        {
+            "name": "博客",
+            "prompt": "请将以下内容改写成博客文章格式：\n{content}",
+            "style": "casual",
+            "max_length": 2000
+        },
+        {
+            "name": "论文",
+            "prompt": "请将以下内容改写成学术论文格式：\n{content}",
+            "style": "academic",
+            "max_length": 3000
+        }
+    ]
+} 

@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include ai_article_generator/config/*.json
+include ai_article_generator/templates/*.json
+recursive-exclude * __pycache__
+recursive-exclude * *.py[cod] 
